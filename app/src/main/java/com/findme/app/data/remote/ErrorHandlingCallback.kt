@@ -1,4 +1,4 @@
-package com.template.app.data.remote
+package com.findme.app.data.remote
 
 
 import java.net.HttpURLConnection

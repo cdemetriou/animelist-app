@@ -1,9 +1,9 @@
-package com.template.app.injection
+package com.findme.app.injection
 
 import android.content.Context
-import com.template.app.BuildConfig
-import com.template.app.data.remote.DataService
-import com.template.app.data.remote.Repository
+import com.findme.app.BuildConfig
+import com.findme.app.data.remote.DataService
+import com.findme.app.data.remote.Repository
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

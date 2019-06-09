@@ -1,4 +1,4 @@
-package com.template.app.utils
+package com.findme.app.utils
 
 import android.content.SharedPreferences
 import javax.inject.Inject

@@ -29,7 +29,7 @@ ext {
 
     leakcanary_version = '1.6.1'
 
-    firebase_version = '16.0.4'
+    firebase_version = '16.0.9'
 
 }
 
@@ -38,7 +38,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "com.template.app"
+        applicationId "com.findme.app"
         minSdkVersion 21
         targetSdkVersion 28
         multiDexEnabled true
@@ -149,6 +149,8 @@ dependencies {
 
     // Google / Firebase
     implementation "com.google.firebase:firebase-core:$firebase_version"
+    implementation 'com.google.firebase:firebase-messaging:18.0.0'
+
 
     // Retrofit
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
@@ -168,3 +170,6 @@ dependencies {
     annotationProcessor "org.parceler:parceler:$parceler_version"
 
 }
+
+apply plugin: 'com.google.gms.google-services'
+

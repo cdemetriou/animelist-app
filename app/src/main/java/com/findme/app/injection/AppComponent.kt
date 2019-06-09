@@ -1,10 +1,10 @@
-package com.template.app.injection
+package com.findme.app.injection
 
 import android.content.Context
-import com.template.app.Application
-import com.template.app.MainActivity
-import com.template.app.data.remote.Repository
-import com.template.app.utils.PreferencesManager
+import com.findme.app.Application
+import com.findme.app.MainActivity
+import com.findme.app.data.remote.Repository
+import com.findme.app.utils.PreferencesManager
 import dagger.Component
 import javax.inject.Singleton
 

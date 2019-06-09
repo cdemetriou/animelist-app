@@ -1,12 +1,15 @@
-package com.template.app
+package com.findme.app
 
+import android.content.Context
 import android.support.multidex.MultiDexApplication
-import com.google.firebase.analytics.FirebaseAnalytics
 import com.squareup.leakcanary.LeakCanary
-import com.template.app.injection.AppComponent
-import com.template.app.injection.AppModule
-import com.template.app.injection.DaggerAppComponent
-import com.template.app.injection.NetworkModule
+import com.findme.app.injection.AppComponent
+import com.findme.app.injection.AppModule
+import com.findme.app.injection.DaggerAppComponent
+import com.findme.app.injection.NetworkModule
+import android.support.multidex.MultiDex
+
+
 
 class Application: MultiDexApplication() {
 
@@ -32,6 +35,11 @@ class Application: MultiDexApplication() {
                 .build()
 
 
+    }
+
+    override fun attachBaseContext(context: Context) {
+        super.attachBaseContext(context)
+        MultiDex.install(this)
     }
 
     fun getMyComponent(): AppComponent {

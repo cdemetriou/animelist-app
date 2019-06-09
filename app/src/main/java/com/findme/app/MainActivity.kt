@@ -1,13 +1,13 @@
-package com.template.app
+package com.findme.app
 
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import com.template.app.base.BaseActivity
-import com.template.app.data.remote.Repository
-import com.template.app.databinding.ActivityMainBinding
-import com.template.app.utils.PreferencesManager
+import com.findme.app.base.BaseActivity
+import com.findme.app.data.remote.Repository
+import com.findme.app.databinding.ActivityMainBinding
+import com.findme.app.utils.PreferencesManager
 import javax.inject.Inject
 
 

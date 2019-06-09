@@ -1,6 +1,5 @@
-package com.template.app.data.remote
+package com.findme.app.data.remote
 
-import android.util.Log
 import javax.inject.Inject
 
 

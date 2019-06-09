@@ -1,8 +1,8 @@
-package com.template.app.base
+package com.findme.app.base
 
 import android.support.v7.app.AppCompatActivity
-import com.template.app.Application
-import com.template.app.injection.AppComponent
+import com.findme.app.Application
+import com.findme.app.injection.AppComponent
 
 open class BaseActivity: AppCompatActivity() {
 

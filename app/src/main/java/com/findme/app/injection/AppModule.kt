@@ -1,9 +1,9 @@
-package com.template.app.injection
+package com.findme.app.injection
 
 import android.content.SharedPreferences
 import android.preference.PreferenceManager
-import com.template.app.Application
-import com.template.app.utils.PreferencesManager
+import com.findme.app.Application
+import com.findme.app.utils.PreferencesManager
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

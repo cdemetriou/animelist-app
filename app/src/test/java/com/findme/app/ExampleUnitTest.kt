@@ -1,4 +1,4 @@
-package com.template.app
+package com.findme.app
 
 import org.junit.Test
 
